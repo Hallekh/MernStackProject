@@ -1,0 +1,19 @@
+.card {
+    width: 70%;
+    margin: 2% auto;
+    
+}
+.card .card-title {
+    margin-bottom: 20px;
+}
+.card a {
+    float: right;
+    text-decoration: none;
+}
+.noQuestion {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
