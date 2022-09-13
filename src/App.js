@@ -1,9 +1,13 @@
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Navbar />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,16 @@
+.foo {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2F1793;
+    margin-top: 40px;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.foo p {
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 0;
+}
