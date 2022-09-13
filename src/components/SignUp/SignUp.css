@@ -1,0 +1,100 @@
+.register-container {
+    width: 800px;
+    margin: 5% 29%;
+}
+
+.register-container h2 {
+    margin: 30px 14%;
+    text-transform: uppercase;
+    color: #4285F4;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.register-container form label {
+    display: block;
+    margin-top: 20px;
+}
+
+.first_last > div > label {
+    margin-left: 10px;
+    margin-bottom: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4285F4;
+}
+
+.register-container .first_last {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.first_last > div > input[type=text] {
+    width: 300px;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 20px ;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px #212529;
+    margin-right: 30px;
+}
+
+.register-container .email {
+    width: 83%;
+}
+.register-container .email > label {
+    margin-left: 10px;
+    margin-bottom: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4285F4;
+}
+
+.register-container .email input[type=email] {
+    width: 95%;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 20px ;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px #212529;
+}
+
+.register-container .pass {
+    display: flex;
+    align-items: center;
+} 
+.pass > div > label {
+    margin-left: 10px;
+    margin-bottom: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4285F4;
+}
+
+
+.pass > div > input[type=password] {
+    width: 300px;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 20px ;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px #212529;
+    margin-right: 30px;
+}
+
+.register-container form button {
+    border: none;
+    outline: none;
+    padding: 4px 20px;
+    width: 80%;
+    height: 45px;
+    border-radius: 20px;
+    margin: 5% 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
