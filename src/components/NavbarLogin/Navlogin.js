@@ -1,35 +1,36 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../Navbar/Navbar.css'
 
 
 export default function Navlogin() {
   return (
     <div>
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container">
-            <a class="navbar-brand" href="/">MMC</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg bg-dark">
+            <div className="container">
+            <Link className="navbar-brand" to="/">MMC</Link>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link navLogin" href="/">Home</a>
+            <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
+                <li className="nav-item">
+                    <Link className="nav-link navLogin" to="/">Home</Link>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link navLogin" href="/">Add Post</a>
+                <li className="nav-item">
+                    <Link className="nav-link navLogin" to="/">Add Post</Link>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link navLogin" href="/about">AboutUs</a>
+                <li className="nav-item">
+                    <Link className="nav-link navLogin" to="/about">AboutUs</Link>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link navLogin" href="/contact">ContactUs</a>
+                <li className="nav-item">
+                    <Link className="nav-link navLogin" to="/contact">ContactUs</Link>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Hello, Halyna</a>
+                <li className="nav-item">
+                    <Link className="nav-link" to="/">Hello, Halyna</Link>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/logout">Logout</a>
+                <li className="nav-item">
+                    <Link className="nav-link" to="/logout">Logout</Link>
                 </li>
                 </ul>
             </div>
