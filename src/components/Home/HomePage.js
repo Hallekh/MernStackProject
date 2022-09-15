@@ -21,7 +21,7 @@ export default function HomePage() {
             <h5 className="card-title">{item.title}</h5>
             <p className="card-text">{item.message}</p>
             <p>{item.createdAt}</p>
-            <Link to='/ShowOne' className="card-link">See More</Link>
+            <Link to={/question/ + item._id} className="card-link">See More</Link>
             </div>
           </div>
         })}
